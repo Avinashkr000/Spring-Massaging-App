@@ -16,8 +16,12 @@
 	<name>SpringMessagingApp</name>
 	<description>Demo project for Spring Boot</description>
 
+	<!-- ✅ Merged properties into one section -->
 	<properties>
 		<java.version>21</java.version>
+		<maven.compiler.source>21</maven.compiler.source>
+		<maven.compiler.target>21</maven.compiler.target>
+		<maven.compiler.release>21</maven.compiler.release>
 	</properties>
 
 	<dependencies>
